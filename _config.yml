@@ -23,10 +23,10 @@ repository               : "genomeve/genomeve.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "files/lab_logo.png"
+  name             : "GenomeVE Lab"
   pronouns         : # example: "she/her"  
-  bio              : "Genome Variation and Evolution Lab"
+  bio              : "Genome Variation and Evolution Lab is led by Dr. Sina Majidian."
   location         : "Gothenburg, Sweden"
   employer         : "Chalmers University of Technology"
   uri              : # URL
@@ -227,7 +227,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  team:
+    output: true
+    permalink: /:collection/:path/
+  join:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -264,6 +267,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _join
+  - scope:
+      path: ""
+      type: join
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
@@ -273,10 +285,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _team
   - scope:
       path: ""
-      type: portfolio
+      type: team
     values:
       layout: single
       author_profile: true
