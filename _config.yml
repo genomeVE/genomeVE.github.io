@@ -96,7 +96,7 @@ footer-links:
   twitter: sinamajidian
   bsky: sinamajidian.bsky.social
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: @sinamajidian # or user/<user-name>
+  youtube: "@sinamajidian" # or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 repository: sinamajidian
