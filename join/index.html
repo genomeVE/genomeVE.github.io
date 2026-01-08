@@ -1,0 +1,43 @@
+---
+layout: default
+title: JoinUs
+---
+
+<h1 class="page-name">JoinUs</h1>
+
+{% include page-nav.html %}
+
+<div class="posts">
+  {% for post in paginator.posts %}
+    <article class="post">
+
+      <div style="float:right;">
+		{% include person-list-start.html %}
+		{% for p in site.people %}
+			{% assign key = p.title | downcase %}
+			{% if post.authors contains key %}
+				{% include person-list-item.html url=p.url portrait=p.portrait name=p.name size=40 inits='yes' %}
+			{% endif %}
+		{% endfor %}
+		{% include person-list-end.html %}
+	  </div>
+      <h3 class="mainHeading">{{ post.title }}</h3>
+	  <div style="color: gray;">{{ post.date | date: "%B %e, %Y" }}</div>
+      {% if post.excerpt.size != post.content.size %}
+      <div class="postBody excerpt">
+      {% else %}
+      <div class="postShort excerpt">
+      {% endif %}
+                {{ post.excerpt }}
+      </div>
+      {% if post.excerpt.size != post.content.size %}
+      <div class="linkMore">
+			<a href="{{ site.baseurl }}{{ post.url }}">{% include post-link-more.html %}</a>
+      </div>
+      {% endif %}
+	  
+    </article>
+  {% endfor %}
+</div>
+
+{% include page-nav.html %}

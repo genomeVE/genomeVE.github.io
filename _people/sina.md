@@ -7,7 +7,7 @@ email: sina.majidian@gmail.com
 homepage: https://sinamajidian.github.io/
 scholar: https://scholar.google.com/citations?user=pgzi_1QAAAAJ
 bsky: https://bsky.app/profile/sinamajidian.bsky.social
-role: Assistant Professor
+role: Incoming Assistant Professor
 institutes:
 - chalmers
 - gothenburg
