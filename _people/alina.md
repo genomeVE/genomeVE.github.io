@@ -2,8 +2,8 @@
 name: Alina Nicheperovich
 pub-names:
 - Nicheperovich A
-degree: PhD
-homepage: https://sinamajidian.github.io/
+degree: PhD Candidate
+homepage: https://www.ludwig.ox.ac.uk/team/alina-nicheperovich
 scholar: https://scholar.google.com/citations?user=_23Jaz4AAAAJ
 role: Summer Intern
 institutes:
