@@ -90,13 +90,13 @@ footer-links:
   flickr:
   github: sinamajidian
   instagram:
-  linkedin: https://www.linkedin.com/in/sina-majidian
+  linkedin: sina-majidian
   pinterest:
   rss: yes # uncomment and put something here to enable
   twitter: sinamajidian
   bsky: sinamajidian.bsky.social
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: channel/sinamajidian # or user/<user-name>
+  youtube: @sinamajidian # or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 repository: sinamajidian
