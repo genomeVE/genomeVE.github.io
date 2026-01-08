@@ -78,17 +78,18 @@ defaults:
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: sina.majidian@gmail.com
   facebook:
   flickr:
   github: sinamajidian
   instagram:
-  linkedin:
+  linkedin: https://www.linkedin.com/in/sina-majidian
   pinterest:
   rss: yes # uncomment and put something here to enable
   twitter: sinamajidian
+  bsky: sinamajidian.bsky.social
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube: channel/sinamajidian # or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 repository: sinamajidian
